@@ -1,0 +1,16 @@
+package com.boredapp.model;
+
+public enum Cat {
+	RESTAURANTS,
+	BARS_CLUB,
+	SITESEEING,
+	SCIENCE_TECH,
+	OUTDOORS,
+	PERFOMING_AND_VISAULARTS,
+	SPORTS,
+	EDUCATION,
+	MISCELANOUS,
+	MUSIC,
+	OTHER
+
+}
