@@ -27,10 +27,4 @@ public class User {
     private String password;
     @Transient
     private String repeatPassword;
-    
-    
-
-
-
-
 }

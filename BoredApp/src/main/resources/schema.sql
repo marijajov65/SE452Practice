@@ -1,10 +1,7 @@
 DROP table if exists incategory;
 DROP table if exists category;
-DROP table if exists Activity;
+DROP table if exists activity;
 DROP table if exists user;
-
-
-
 
 CREATE TABLE activity(
 	id int AUTO_INCREMENT,
@@ -13,8 +10,7 @@ CREATE TABLE activity(
 	cost DOUBLE,
 	primary key(id),
 	unique (name)
-	
-	
+
 );
 
 create table user(

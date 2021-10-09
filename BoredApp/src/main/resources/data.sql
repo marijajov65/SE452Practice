@@ -40,6 +40,7 @@ insert into category(name) values('SHOPPING');
 insert into category(name) values('EDUCATION');
 insert into category(name) values('OUTDOORS');
 
+/*
 insert into incategory(activity_name,category_name ) values( 'central park' ,'OUTDOORS');
 insert into incategory(activity_name,category_name ) values( 'central park' ,'SITESEEING');
 insert into incategory(activity_name,category_name ) values( 'times square' ,'SITESEEING');
@@ -85,3 +86,4 @@ insert into incategory(activity_name,category_name ) values( 'eat at little ital
 insert into incategory(activity_name,category_name ) values( 'eat at little italy' ,'SITESEEING');
 insert into incategory(activity_name,category_name ) values( 'niagara falls tour' ,'SITESEEING');
 insert into incategory(activity_name,category_name ) values( 'visit coney island' ,'SITESEEING');
+*/
