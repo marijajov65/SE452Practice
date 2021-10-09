@@ -1,36 +1,11 @@
-insert into activity(name,description,cost) values( 'CENTRAL PARK' ,'ONE OF THE TOP PLACES TO VISIT IN NEW YORK CITY' ,53.0);
-insert into activity(name,description,cost) values( 'TIMES SQUARE' ,'THE BEST PLACE TO VISIT IN NYC AT NIGHT' ,30.0);
-insert into activity(name,description,cost) values( 'EMPIRE STATE BUILDING' ,'ONE OF THE MOST FAMOUS PLACES IN NEW YORK CITY' ,74.0);
-insert into activity(name,description,cost) values( 'ROCKEFELLER CENTER AND TOP OF THE ROCK' ,'ONE OF THE MAIN ATTRACTIONS IN NEW YORK CITY' ,94.0);
-insert into activity(name,description,cost) values( 'CROSS THE BROOKLYN BRIDGE' ,'SOMETHING INTERESTING TO DO IN NEW YORK CITY' ,73.0);
-insert into activity(name,description,cost) values( 'METROPOLITAN MUSEUM OF ART' ,'ONE OF THE BEST MUSEUMS IN NEW YORK CITY' ,29.0);
-insert into activity(name,description,cost) values( 'SEE A BROADWAY MUSICAL' ,'THE BEST THING TO DO IN NYC AT NIGHT' ,67.0);
-insert into activity(name,description,cost) values( 'WORLD TRADE CENTER' ,'ANOTHER NEW YORK CITY ATTRACTION YOU SHOULD VISIT' ,96.0);
-insert into activity(name,description,cost) values( 'THE 9/11 MEMORIAL MUSEUM' ,'A POIGNANT PLACE TO GO IN NYC' ,44.0);
-insert into activity(name,description,cost) values( 'ONE WORLD TRADE CENTER OBSERVATORY' ,'THE MOST BEAUTIFUL LOOKOUT IN NEW YORK CITY' ,66.0);
-insert into activity(name,description,cost) values( 'MOMA' ,'ONE OF THE MOST FAMOUS MUSEUMS IN NYC AND THE WORLD' ,49.0);
-insert into activity(name,description,cost) values( 'HIGH LINE' ,'ONE OF THE MOST BEAUTIFUL PLACES TO GO IN NYC' ,5.0);
-insert into activity(name,description,cost) values( 'GRAND CENTRAL STATION' ,'SOMETHING YOU MUST VISIT IN NEW YORK CITY' ,32.0);
-insert into activity(name,description,cost) values( 'RIDE THE STATEN ISLAND FERRY' ,'ONE OF THE BEST FREE THINGS TO DO IN NEW YORK CITY' ,38.0);
-insert into activity(name,description,cost) values( 'GUGGENHEIM MUSEUM' ,'ANOTHER TOP MUSEUM IN NEW YORK CITY' ,41.0);
-insert into activity(name,description,cost) values( 'GO SHOPPING ON FIFTH AVENUE' ,'A FUN THING TO DO IN NEW YORK CITY' ,7.0);
-insert into activity(name,description,cost) values( 'ST. PATRICK’S CATHEDRAL' ,'ONE OF THE MOST IMPORTANT CHURCHES IN NYC' ,32.0);
-insert into activity(name,description,cost) values( 'THE FLATIRON BUILDING' ,'ANOTHER PLACE YOU CAN’T MISS IN NEW YORK CITY' ,83.0);
-insert into activity(name,description,cost) values( 'VISIT THE AMERICAN MUSEUM OF NATURAL HISTORY' ,'THE BEST THING TO DO IN NYC WITH KIDS' ,72.0);
-insert into activity(name,description,cost) values( 'BROOKLYN HEIGHTS' ,'A LUXURIOUS NEIGHBORHOOD TO VISIT IN NEW YORK CITY' ,63.0);
-insert into activity(name,description,cost) values( 'DUMBO' ,'ANOTHER INTERESTING NEIGHBORHOOD TO SEE IN NEW YORK CITY' ,14.0);
-insert into activity(name,description,cost) values( 'VISIT THE NEW YORK PUBLIC LIBRARY' ,'ANOTHER FREE THING TO DO IN NEW YORK CITY' ,28.0);
-insert into activity(name,description,cost) values( 'METROPOLITAN OPERA HOUSE' ,'A BREATHTAKING PLACE TO GO IN NEW YORK CITY' ,62.0);
-insert into activity(name,description,cost) values( 'SHOP AT THE BEST OUTLETS IN NEW YORK CITY' ,'SOMETHING TO DO IN NYC IF IT RAINS' ,65.0);
-insert into activity(name,description,cost) values( 'GREENWICH VILLAGE' ,'THE NEW YORK CITY NEIGHBORHOOD FOR FRIENDS FANS' ,46.0);
-insert into activity(name,description,cost) values( 'UNION SQUARE' ,'THE BEST ATTRACTION TO VISIT IN NEW YORK CITY' ,68.0);
-insert into activity(name,description,cost) values( 'TAKE A SUNSET CRUISE' ,'THE BEST THING TO DO IN NEW YORK CITY FOR COUPLES' ,41.0);
-insert into activity(name,description,cost) values( 'VISIT RADIO CITY MUSIC HALL' ,'ONE OF THE MOST FAMOUS THEATERS IN NEW YORK CITY' ,69.0);
-insert into activity(name,description,cost) values( 'SOHO' ,'ANOTHER PLACE IN NYC YOU DON’T WANT TO MISS' ,23.0);
-insert into activity(name,description,cost) values( 'CHINATOWN' ,'AN AWESOME PLACE TO GO IN NEW YORK CITY' ,51.0);
-insert into activity(name,description,cost) values( 'EAT AT LITTLE ITALY' ,'SOMETHING YOU CAN’T MISS IN NEW YORK CITY' ,27.0);
-insert into activity(name,description,cost) values( 'NIAGARA FALLS TOUR' ,'A BREATHTAKING PLACE TO GO NEAR NEW YORK CITY' ,70.0);
-insert into activity(name,description,cost) values( 'VISIT CONEY ISLAND' ,'ANOTHER FUN THING TO DO IN NYC WITH KIDS' ,28.0);
+
+insert into activity(name,description,cost) values( 'central park' ,'one of the top places to visit in new york city' ,81.0);
+insert into activity(name,description,cost) values( 'times square' ,'the best place to visit in nyc at night' ,67.0);
+insert into activity(name,description,cost) values( 'empire state building' ,'one of the most famous places in new york city' ,46.0);
+insert into activity(name,description,cost) values( 'rockefeller center and top of the rock' ,'one of the main attractions in new york city' ,58.0);
+insert into activity(name,description,cost) values( 'cross the brooklyn bridge' ,'something interesting to do in new york city' ,77.0);
+insert into activity(name,description,cost) values( 'metropolitan museum of art' ,'one of the best museums in new york city' ,98.0);
+insert into activity(name,description,cost) values( 'see a broadway musical' ,'the best thing to do in nyc at night' ,60.0);
 
 
 insert into category(name) values('MUSIC');
@@ -40,50 +15,17 @@ insert into category(name) values('SHOPPING');
 insert into category(name) values('EDUCATION');
 insert into category(name) values('OUTDOORS');
 
-/*
-insert into incategory(activity_name,category_name ) values( 'central park' ,'OUTDOORS');
-insert into incategory(activity_name,category_name ) values( 'central park' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'times square' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'empire state building' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'rockefeller center and top of the rock' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'cross the brooklyn bridge' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'metropolitan museum of art' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'metropolitan museum of art' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'see a broadway musical' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'see a broadway musical' ,'MUSIC');
-insert into incategory(activity_name,category_name ) values( 'world trade center' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'the 9/11 memorial museum' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'the 9/11 memorial museum' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'one world trade center observatory' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'moma' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'moma' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'high line' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'grand central station' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'ride the staten island ferry' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'guggenheim museum' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'guggenheim museum' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'go shopping on fifth avenue' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'go shopping on fifth avenue' ,'SHOPPING');
-insert into incategory(activity_name,category_name ) values( 'st. patrick’s cathedral' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'the flatiron building' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit the american museum of natural history' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit the american museum of natural history' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'brooklyn heights' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'dumbo' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit the new york public library' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit the new york public library' ,'EDUCATION');
-insert into incategory(activity_name,category_name ) values( 'metropolitan opera house' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'shop at the best outlets in new york city' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'shop at the best outlets in new york city' ,'SHOPPING');
-insert into incategory(activity_name,category_name ) values( 'greenwich village' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'union square' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'take a sunset cruise' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit radio city music hall' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit radio city music hall' ,'MUSIC');
-insert into incategory(activity_name,category_name ) values( 'soho' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'chinatown' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'eat at little italy' ,'RESTAURANTS');
-insert into incategory(activity_name,category_name ) values( 'eat at little italy' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'niagara falls tour' ,'SITESEEING');
-insert into incategory(activity_name,category_name ) values( 'visit coney island' ,'SITESEEING');
-*/
+
+insert into userdata (first_name, last_name, email, password) values
+            ('John', 'Doe', 'johndoe@gmail.com', '123abc'),
+            ('Anna', 'Jones', 'johndoe@gmail.com', 'GNnOj87'),
+            ('Indiana', 'Jones', 'johndoe@gmail.com', '134t0a'),
+            ('Jim', 'Jackson', 'johndoe@gmail.com', '1aAH7890'),
+            ('Mariah', 'Elliott', 'melliott@gmail.com', 'vn3fe9')
+            ;
+
+
+
+
+
+

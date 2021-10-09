@@ -1,4 +1,4 @@
-package com.boredapp.model;
+package com.boredapp.relational;
 
 public enum Cat {
 	RESTAURANTS,

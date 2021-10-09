@@ -1,4 +1,4 @@
-package com.boredapp.model;
+package com.boredapp.relational.tables;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,22 +14,15 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import lombok.Data;
+
+@Data
 @Entity
 @Table(name="category")
 public class Category {
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int id;
+    private long id;
 	@Column(name="name",nullable =false)
 	private String name;
-	/*@ManyToOne
-	@JoinColumn(name="Activity_id",nullable=true)
-	private Activity activity;*/
-	
-	@OneToMany(mappedBy="category",cascade=CascadeType.PERSIST)
-	List<Incategory> incategories=new ArrayList<>();
-	
-	
-	
-
 }
